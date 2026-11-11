@@ -3,12 +3,12 @@
 Which telecom customers are most likely to leave, which customer characteristics go with churn, and which retention actions to prioritise. Built in Python (Jupyter notebook) with Pandas, NumPy, Matplotlib and Seaborn.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
-!\[Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas\&logoColor=white)
-!\[NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy\&logoColor=white)
-!\[Matplotlib](https://img.shields.io/badge/Matplotlib-11557C)
-!\[Seaborn](https://img.shields.io/badge/Seaborn-4C8BB5)
-!\[Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter\&logoColor=white)
-!\[Domain](https://img.shields.io/badge/Domain-Business%20Analysis-success)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy\&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C8BB5)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter\&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Business%20Analysis-success)
 
 ## Project Overview
 
