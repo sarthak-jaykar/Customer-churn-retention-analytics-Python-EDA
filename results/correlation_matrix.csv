@@ -1,0 +1,4 @@
+,tenure,MonthlyCharges,TotalCharges
+tenure,1.0,0.248,0.826
+MonthlyCharges,0.248,1.0,0.651
+TotalCharges,0.826,0.651,1.0
