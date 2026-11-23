@@ -1,13 +1,13 @@
-# Customer Churn & Retention Analytics
+# Customer Churn \& Retention Analytics
 
 Which telecom customers are most likely to leave, which customer characteristics go with churn, and which retention actions to prioritise. Built in Python (Jupyter notebook) with Pandas, NumPy, Matplotlib and Seaborn.
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy\&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C8BB5)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter\&logoColor=white)
 ![Domain](https://img.shields.io/badge/Domain-Business%20Analysis-success)
 
 ## Project Overview
@@ -84,8 +84,8 @@ These are proposed retention actions, not proven results.
 
 **Outputs**
 
-* Running all notebook cells regenerates the six chart files in `screenshots/`.
-* The 19 CSV summary tables in `results/` are committed reference exports; the notebook does not automatically regenerate these CSV files.
+* Charts are saved to `screenshots/` (6 files).
+* Summary tables are saved to `results/` (19 files).
 
 ## Repository Structure
 
@@ -94,13 +94,13 @@ customer-churn-retention-python/
 ├── README.md
 ├── data/                                Included source dataset (Telco-Customer-Churn.csv)
 ├── documentation/
-│   ├── 01_business_brief.md             Context, stakeholders, decisions, questions
-│   ├── 02_data_and_quality.md           Source, fields, quality decisions, reconciliation
-│   └── 03_findings_and_recommendations.md  Metric definitions, findings, actions
+│   ├── 01\_business\_brief.md             Context, stakeholders, decisions, questions
+│   ├── 02\_data\_and\_quality.md           Source, fields, quality decisions, reconciliation
+│   └── 03\_findings\_and\_recommendations.md  Metric definitions, findings, actions
 ├── results/                             19 exported summary tables
 ├── screenshots/                         6 exported analysis charts
 ├── script/
-│   └── customer_churn_analysis.ipynb    Analysis notebook
+│   └── customer\_churn\_analysis.ipynb    Analysis notebook
 └── requirements.txt
 ```
 
@@ -108,11 +108,11 @@ customer-churn-retention-python/
 
 |Question|Notebook section|Output|
 |-|-|-|
-|Q1. Overall churn|Phase 4|`churn_distribution.csv`, `screenshots/01_churn_counts.png`, `02_churn_percentage.png`|
-|Q2. Contract, payment and services|Phase 4|`churn_rate_by_contract\*.csv`, `churn_rate_by_paymentmethod.csv`, `churn_rate_by_onlinesecurity.csv`, `churn_rate_by_techsupport.csv`|
-|Q3. Demographics and household|Phase 4|`churn_rate_by_gender.csv`, `churn_rate_by_seniorcitizen.csv`, `churn_rate_by_partner.csv`, `churn_rate_by_dependents.csv`|
-|Q4. Tenure and charges|Phase 4|`tenure_and_charges_by_churn.csv`, `screenshots/06_tenure_vs_monthly_charges.png`|
-|Q5. Combined high-risk segments|Phase 4 and 5|`churn_rate_by_contract_payment.csv`, `churn_rate_by_contract_internet.csv`, `churn_rate_by_contract_senior.csv`|
+|Q1. Overall churn|Phase 4|`churn\_distribution.csv`, `screenshots/01\_churn\_counts.png`, `02\_churn\_percentage.png`|
+|Q2. Contract, payment and services|Phase 4|`churn\_rate\_by\_contract\*.csv`, `churn\_rate\_by\_paymentmethod.csv`, `churn\_rate\_by\_onlinesecurity.csv`, `churn\_rate\_by\_techsupport.csv`|
+|Q3. Demographics and household|Phase 4|`churn\_rate\_by\_gender.csv`, `churn\_rate\_by\_seniorcitizen.csv`, `churn\_rate\_by\_partner.csv`, `churn\_rate\_by\_dependents.csv`|
+|Q4. Tenure and charges|Phase 4|`tenure\_and\_charges\_by\_churn.csv`, `screenshots/06\_tenure\_vs\_monthly\_charges.png`|
+|Q5. Combined high-risk segments|Phase 4 and 5|`churn\_rate\_by\_contract\_payment.csv`, `churn\_rate\_by\_contract\_internet.csv`, `churn\_rate\_by\_contract\_senior.csv`|
 
 ## Documentation
 
@@ -124,10 +124,10 @@ customer-churn-retention-python/
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook script/customer_churn_analysis.ipynb
+jupyter notebook script/customer\_churn\_analysis.ipynb
 ```
 
-The source CSV is included in `data/`. Open the notebook and choose **Run All**. The notebook supports running from the project root or the `script/` directory and saves the six charts to `screenshots/`. The committed CSV result tables are provided as reference exports.
+The CSV is included in `data/`. Open the notebook and choose **Run All**. Charts and tables are saved automatically.
 
 ## Limitations
 
