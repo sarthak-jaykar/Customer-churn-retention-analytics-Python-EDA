@@ -138,5 +138,5 @@ The CSV is included in `data/`. Open the notebook and choose **Run All** to repr
 
 ## Author
 
-[Sarthak Jaykar](https://www.linkedin.com/in/sarthak-jaykar/)
+[GitHub](https://github.com/sarthak-jaykar) · [LinkedIn](https://www.linkedin.com/in/sarthak-jaykar/)
 
