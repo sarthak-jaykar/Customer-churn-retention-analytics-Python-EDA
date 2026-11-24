@@ -84,8 +84,8 @@ These are proposed retention actions, not proven results.
 
 **Outputs**
 
-* Charts are saved to `screenshots/` (6 files).
-* Summary tables are saved to `results/` (19 files).
+* The repository includes six chart images in `screenshots/` and 19 CSV summary tables in `results/` as committed reference outputs.
+* The notebook displays its analysis and plots when run; it does not automatically regenerate or overwrite those committed files.
 
 ## Repository Structure
 
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 jupyter notebook script/customer\_churn\_analysis.ipynb
 ```
 
-The CSV is included in `data/`. Open the notebook and choose **Run All**. Charts and tables are saved automatically.
+The CSV is included in `data/`. Open the notebook and choose **Run All** to reproduce the analysis in the notebook. The existing screenshots and CSV result tables remain available as committed reference outputs; this notebook run does not regenerate or overwrite them.
 
 ## Limitations
 
